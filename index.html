@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="util.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+
+    <div class="container flex bg-black font-class-1">
+        <div class="left bg-black m-1">
+            <div class="close">
+                <img class="invert" src="images/cancel-01-stroke-rounded.svg" alt="">
+            </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <ul>
+                    <li><img class="invert" src="images/logo.svg" alt="logo"></li>
+                    <li><img class="invert" src="images/home.svg" alt="home"> Home </li>
+                    <li class="opacity-class"><img class="invert" src="images/search.svg" alt="search"> Search </li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1 p-1-left">
+                    <p class="opacity-class"><img class="invert" src="images/library-icon.svg" alt="library-icon"> Your Library
+                    </p>
+                    <div class="scrollable-boxes">
+                        <div class="create-playlist hidden-boxes rounded">
+                            <p class="para-1">Create your first playlist</p>
+                            <p class="para-2">It's easy, we'll help you</p>
+                            <button class="btn">Create playlist</button>
+                        </div>
+                        <div class="browse-podcast hidden-boxes rounded">
+                            <p class="para-1">Let's find some podcasts to follow</p>
+                            <p class="para-2">We'll keep you updated on new episodes</p>
+                            <button class="btn">Browse podcasts</button>
+                        </div>
+                    </div>
+                    <div class="songs">
+                        <p class="opacity-class"><img class="invert" src="images/music-note-03-stroke-rounded.svg" alt="library-icon"> My Songs
+                        </p>
+                        <ul class="opacity-class rounded">
+                            <!-- <li id="play-song">
+                                <img class="invert" src="images/music-note-02-stroke-rounded.svg" alt="">
+                                <div class="song-info">
+                                    <div class="song-name">Song Name</div>
+                                    <div class="song-artist">Song Artist</div>
+                                </div>
+                                <div class="play-now">
+                                    <span>Play</span>
+                                    <img class="invert" src="images/play-circle-stroke-rounded.svg" alt="">
+                                </div>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div class="footer">
+                        <div class="footer-item">
+                            <a href>Legal</span>
+                            </a>
+                        </div>
+                        <div class="footer-item">
+                            <a href="" id="">
+                                Safety & Privacy Center
+                            </a>
+                        </div>
+                        <div class="footer-item">
+                            <a href="" id="">
+                                Privacy Policy
+                            </a>
+                        </div>
+                        <div class="footer-item">
+                            <a href="" id="">
+                                Cookies
+                            </a>
+                        </div>
+                        <div class="footer-item">
+                            <a href="" id="">
+                                About Ads
+                            </a>
+                        </div>
+                        <div class="footer-item">
+                            <a href="" id="">
+                                Accessibility
+                            </a>
+                        </div>
+                        <div class="footer-item">
+                            <a href="" id="">
+                                Cookies
+                           </a>
+                       </div>
+                  </div>
+            </div>
+            </div>
+
+            <div class="right bg-grey ">
+                <div class="navbar m-1 p-1">
+                   <div class="arrows">
+                    <img class="invert hamburger" src="images/menu-01-stroke-rounded.svg" alt="" height="40rem">
+                    <img class="invert" class="prev-arrow" src="images/arrow-prev-small-svgrepo-com.svg" alt="" width="40rem">
+                    <img class="invert" class="next-arrow" src="images/arrow-next-small-svgrepo-com.svg" alt="" width="40rem">
+                   </div>
+                   <div class="sign-up">
+                    <p>Sign up</p>
+                    <button class="btn log-in">Log In</button>
+                   </div>
+                </div>
+
+                <div class="popular">
+                    <div class="artists">
+                        <div class="artists-head">
+                            <p class="">Popular artists</p>
+                            <p>Show all</p>
+                        </div>
+                        <div class="artist-list">
+                            <div class="card">
+                                <img src="images/ab67616100005174cb6926f44f620555ba444fca.jpg" alt="" width="135rem">
+                                <button class="green-button"><img src="images/icons8-play-30.png" alt="" width="25rem"></button>
+                                <div class="card-des">
+                                    <p>Pritam</p>
+                                    <p>Artist</p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <img src="images/arijit-singh.jpg" alt="" width="135rem" height="135rem">
+                                <div class="card-des">
+                                    <p>Arijit Singh</p>
+                                    <p>Artist</p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <img src="images/ar-rahman.jpg" alt="" width="135rem">
+                                <div class="card-des">
+                                    <p>A.R. Rahman</p>
+                                    <p>Artist</p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <img src="images/sachin-jigar.jpg" alt="" width="135rem">
+                                <div class="card-des">
+                                    <p>Sachin-Jigar</p>
+                                    <p>Artist</p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <img src="images/anirudh-ravichandar.jpg" alt="" width="135rem">
+                                <div class="card-des">
+                                    <p>Anirudh</p>
+                                    <p>Artist</p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <img src="images/vishal-mishra.jpg" alt="" width="135rem" height="135rem">
+                                <div class="card-des">
+                                    <p>Vishal Mishra</p>
+                                    <p>Artist</p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <img src="images/atif-aslam.jpg" alt="" width="135rem">
+                                <div class="card-des">
+                                    <p>Atif Aslam</p>
+                                    <p>Artist</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+                            
+                        </div>
+                    </div>
+                    <div class="song-information">
+
+                    </div>
+                    <div class="song-buttons">
+                        <img id="previous" class="invert" src="images/previous-stroke-rounded.svg" alt="">
+                        <img id="play" class="invert" src="images/pause-stroke-rounded.svg" alt="">
+                        <img id="next" class="invert" src="images/next-stroke-rounded.svg" alt="">
+                    </div>
+                    <div class="song-tv">
+                        <div class="song-time">
+                         
+                        </div>
+                        <div class="volume">
+                            <div class="image-container">
+                                <img src="images/volume-high-stroke-rounded.svg" alt="">
+                                <div class="range">
+                                    <input type="range" name="volume" id="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>
